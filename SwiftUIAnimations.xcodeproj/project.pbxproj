@@ -11,6 +11,7 @@
 		02263AA029D8988E00B45BBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263A9F29D8988E00B45BBC /* ContentView.swift */; };
 		02263AA229D8988F00B45BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02263AA129D8988F00B45BBC /* Assets.xcassets */; };
 		02263AA529D8988F00B45BBC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02263AA429D8988F00B45BBC /* Preview Assets.xcassets */; };
+		02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		02263A9F29D8988E00B45BBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		02263AA129D8988F00B45BBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02263AA429D8988F00B45BBC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptimiseBuildSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				02263A9F29D8988E00B45BBC /* ContentView.swift */,
 				02263AA129D8988F00B45BBC /* Assets.xcassets */,
 				02263AA329D8988F00B45BBC /* Preview Content */,
+				02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02263AA029D8988E00B45BBC /* ContentView.swift in Sources */,
+				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +271,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P5TPA6QV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimations/Preview Content\"";
+				DEVELOPMENT_TEAM = 2P5TPA6QV8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
