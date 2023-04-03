@@ -15,6 +15,7 @@
 		02263AB129D979E400B45BBC /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB029D979E400B45BBC /* PageIntro.swift */; };
 		02263AB329D97BD300B45BBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB229D97BD300B45BBC /* Home.swift */; };
 		02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB429D9834500B45BBC /* CustomIndicatorView.swift */; };
+		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		02263AB029D979E400B45BBC /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		02263AB229D97BD300B45BBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02263AB429D9834500B45BBC /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				02263AB229D97BD300B45BBC /* Home.swift */,
 				02263AB429D9834500B45BBC /* CustomIndicatorView.swift */,
+				02D9547A29DB130F002B4B9E /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */,
 				02263AA029D8988E00B45BBC /* ContentView.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
