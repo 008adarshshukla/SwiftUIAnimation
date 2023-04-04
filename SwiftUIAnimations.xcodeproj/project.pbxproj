@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02192FFC29DC001E00673A5C /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02192FFB29DC001E00673A5C /* Tab.swift */; };
+		02192FFE29DC012600673A5C /* Home1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02192FFD29DC012600673A5C /* Home1.swift */; };
+		0219300129DC1A9C00673A5C /* ScrollOffserModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219300029DC1A9C00673A5C /* ScrollOffserModifier.swift */; };
+		0219300329DC28A800673A5C /* AnimationEndCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0219300229DC28A800673A5C /* AnimationEndCallback.swift */; };
 		02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */; };
 		02263AA029D8988E00B45BBC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263A9F29D8988E00B45BBC /* ContentView.swift */; };
 		02263AA229D8988F00B45BBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02263AA129D8988F00B45BBC /* Assets.xcassets */; };
@@ -16,9 +20,14 @@
 		02263AB329D97BD300B45BBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB229D97BD300B45BBC /* Home.swift */; };
 		02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB429D9834500B45BBC /* CustomIndicatorView.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
+		02D9547D29DB1B8E002B4B9E /* InfiniteCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02192FFB29DC001E00673A5C /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		02192FFD29DC012600673A5C /* Home1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home1.swift; sourceTree = "<group>"; };
+		0219300029DC1A9C00673A5C /* ScrollOffserModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollOffserModifier.swift; sourceTree = "<group>"; };
+		0219300229DC28A800673A5C /* AnimationEndCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationEndCallback.swift; sourceTree = "<group>"; };
 		02263A9A29D8988E00B45BBC /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
 		02263A9F29D8988E00B45BBC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -29,6 +38,7 @@
 		02263AB229D97BD300B45BBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02263AB429D9834500B45BBC /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02192FF829DBFFE000673A5C /* AutoScrollingTab */ = {
+			isa = PBXGroup;
+			children = (
+				02192FFF29DC1A8800673A5C /* Helper */,
+				02192FFA29DBFFFB00673A5C /* View */,
+				02192FF929DBFFF400673A5C /* Model */,
+			);
+			path = AutoScrollingTab;
+			sourceTree = "<group>";
+		};
+		02192FF929DBFFF400673A5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				02192FFB29DC001E00673A5C /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		02192FFA29DBFFFB00673A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				02192FFD29DC012600673A5C /* Home1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		02192FFF29DC1A8800673A5C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				0219300029DC1A9C00673A5C /* ScrollOffserModifier.swift */,
+				0219300229DC28A800673A5C /* AnimationEndCallback.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		02263A9129D8988E00B45BBC = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +106,14 @@
 		02263A9C29D8988E00B45BBC /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				02192FF829DBFFE000673A5C /* AutoScrollingTab */,
 				02263AAD29D973E800B45BBC /* OnboardingAnimations */,
 				02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */,
 				02263A9F29D8988E00B45BBC /* ContentView.swift */,
 				02263AA129D8988F00B45BBC /* Assets.xcassets */,
 				02263AA329D8988F00B45BBC /* Preview Content */,
 				02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */,
+				02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -177,10 +224,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */,
+				0219300329DC28A800673A5C /* AnimationEndCallback.swift in Sources */,
 				02263AA029D8988E00B45BBC /* ContentView.swift in Sources */,
+				02192FFE29DC012600673A5C /* Home1.swift in Sources */,
+				0219300129DC1A9C00673A5C /* ScrollOffserModifier.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
 				02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */,
+				02D9547D29DB1B8E002B4B9E /* InfiniteCarousel.swift in Sources */,
+				02192FFC29DC001E00673A5C /* Tab.swift in Sources */,
 				02263AB129D979E400B45BBC /* PageIntro.swift in Sources */,
 				02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */,
 			);
