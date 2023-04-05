@@ -19,6 +19,7 @@
 		02263AB129D979E400B45BBC /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB029D979E400B45BBC /* PageIntro.swift */; };
 		02263AB329D97BD300B45BBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB229D97BD300B45BBC /* Home.swift */; };
 		02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB429D9834500B45BBC /* CustomIndicatorView.swift */; };
+		02491D5729DD316B0029139D /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02491D5629DD316B0029139D /* test.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
 		02D9547D29DB1B8E002B4B9E /* InfiniteCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		02263AB029D979E400B45BBC /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		02263AB229D97BD300B45BBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02263AB429D9834500B45BBC /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		02491D5629DD316B0029139D /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -114,6 +116,7 @@
 				02263AA329D8988F00B45BBC /* Preview Content */,
 				02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */,
 				02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */,
+				02491D5629DD316B0029139D /* test.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */,
 				0219300329DC28A800673A5C /* AnimationEndCallback.swift in Sources */,
 				02263AA029D8988E00B45BBC /* ContentView.swift in Sources */,
+				02491D5729DD316B0029139D /* test.swift in Sources */,
 				02192FFE29DC012600673A5C /* Home1.swift in Sources */,
 				0219300129DC1A9C00673A5C /* ScrollOffserModifier.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
