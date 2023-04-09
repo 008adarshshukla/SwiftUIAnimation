@@ -9,8 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        TextAnimation()
-            .preferredColorScheme(.dark)
+        NavigationStack {
+            StickyHeaderHome()
+                .preferredColorScheme(.light)
+        }
     }
 }
 
