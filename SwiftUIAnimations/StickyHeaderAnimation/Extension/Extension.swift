@@ -33,3 +33,41 @@ extension View {
             )
     }
 }
+
+extension View {
+    @ViewBuilder
+    func checkAnimationEnd<Value: VectorArithmetic>(for value: Value, completion: @escaping () -> ()) -> some View {
+        self
+            .modifier(AnimationEndCallback2(for: value, onEnd: completion))
+    }
+}
+
+//Animation onEnd Callback
+struct AnimationEndCallback2<Value: VectorArithmetic>: Animatable, ViewModifier {
+    var animatableData: Value {
+        didSet {
+            checkAnimationFinished()
+        }
+    }
+    
+    var endValue: Value
+    var onEnd: () -> ()
+    
+    init(for endValue: Value, onEnd: @escaping () -> ()) {
+        self.endValue = endValue
+        self.animatableData = endValue
+        self.onEnd = onEnd
+    }
+    
+    func body(content: Content) -> some View {
+        content
+    }
+    
+    func checkAnimationFinished() {
+        if animatableData == endValue {
+            DispatchQueue.main.async {
+                onEnd()
+            }
+        }
+    }
+}

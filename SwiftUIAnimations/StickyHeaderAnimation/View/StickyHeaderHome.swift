@@ -12,6 +12,8 @@ struct StickyHeaderHome: View {
     @State private var activeTab: ProductType = .iphone
     @Namespace private var namespace
     @State private var productBasedOnType: [[Product]] = []
+    //to distinguish between the updation of active tab via scroll and tap gesture
+    @State private var animationProgress: CGFloat = 0
     
     var body: some View {
         ScrollViewReader { proxy in
@@ -80,7 +82,7 @@ struct StickyHeaderHome: View {
             //When the Content reaches the top then updating the currwnt active tab.
             //Note - When the offset is between 30 and (mid - height / 2) then we are setting it as the current active tab.
             
-            if (minY < 30 && -minY < (rect.midY / 2) && activeTab != products.first!.type) {
+            if (minY < 30 && -minY < (rect.midY / 2) && activeTab != products.first!.type) && animationProgress == 0 {
                 withAnimation(Animation.easeInOut(duration: 0.3)) {
                     activeTab = (minY < 30 && -minY < (rect.midY / 2) && activeTab != products.first!.type) ? products.first!.type : activeTab
                 }
@@ -128,7 +130,7 @@ struct StickyHeaderHome: View {
                     Text(type.rawValue)
                         .fontWeight(.semibold)
                         .foregroundColor(.white)
-                    //Active tab Indicator
+                        //Active tab Indicator
                         .background(alignment: .bottom) {
                             if activeTab == type {
                                 Capsule()
@@ -142,15 +144,27 @@ struct StickyHeaderHome: View {
                         }
                         .padding(.horizontal, 15)
                         .contentShape(Rectangle())
+                        //scrolling the tabs whever the active tab is Updated.
+                        .id(type.tabID)
                         .onTapGesture {
                             withAnimation(Animation.easeInOut(duration: 0.3)) {
                                 activeTab = type
+                                animationProgress = 1.0
                                 proxy.scrollTo(type, anchor: .topLeading)
                             }
                         }
                 }
             }
             .padding(.vertical, 15)
+            .onChange(of: activeTab) { newValue in
+                withAnimation(Animation.easeIn(duration: 0.3)) {
+                    proxy.scrollTo(newValue.tabID, anchor: .center)
+                }
+            }
+            .checkAnimationEnd(for: animationProgress) {
+                //Reseting to Default when the animation was finished.
+                animationProgress = 0.0
+            }
         }
         .background {
             Rectangle()

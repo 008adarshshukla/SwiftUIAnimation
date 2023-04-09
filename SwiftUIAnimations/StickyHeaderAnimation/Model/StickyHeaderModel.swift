@@ -24,6 +24,12 @@ enum ProductType: String, CaseIterable {
     case desktop = "Mac Desktop"
     case appleWatch = "Apple Watch"
     case airpods = "Airpods"
+    
+    //a property to be defined as id to scroll to when the active tab changes
+    var tabID: String {
+        //we need to maintain the unique id for the section and tab scrolling.
+        return self.rawValue + self.rawValue.prefix(4)
+    }
 }
 
 var products: [Product] = [
