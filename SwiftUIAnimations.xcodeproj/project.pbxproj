@@ -19,7 +19,9 @@
 		02263AB129D979E400B45BBC /* PageIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB029D979E400B45BBC /* PageIntro.swift */; };
 		02263AB329D97BD300B45BBC /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB229D97BD300B45BBC /* Home.swift */; };
 		02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02263AB429D9834500B45BBC /* CustomIndicatorView.swift */; };
+		0234E82A2A0E533D001351CB /* BreathingAppAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */; };
 		024E89E729E2CEBF000330E5 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 024E89E629E2CEBF000330E5 /* Extension.swift */; };
+		0250D79729E5D28400234761 /* QuizAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250D79629E5D28400234761 /* QuizAnimation.swift */; };
 		029373D729E288E200EAF9E7 /* StickyHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */; };
 		029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
@@ -41,7 +43,9 @@
 		02263AB029D979E400B45BBC /* PageIntro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageIntro.swift; sourceTree = "<group>"; };
 		02263AB229D97BD300B45BBC /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		02263AB429D9834500B45BBC /* CustomIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIndicatorView.swift; sourceTree = "<group>"; };
+		0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingAppAnimation.swift; sourceTree = "<group>"; };
 		024E89E629E2CEBF000330E5 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0250D79629E5D28400234761 /* QuizAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAnimation.swift; sourceTree = "<group>"; };
 		029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderModel.swift; sourceTree = "<group>"; };
 		029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderHome.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -124,6 +128,8 @@
 				02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */,
 				02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */,
 				02E8DD4629DF0402006D005C /* TextAnimation.swift */,
+				0250D79629E5D28400234761 /* QuizAnimation.swift */,
+				0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -270,11 +276,13 @@
 				02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */,
 				029373D729E288E200EAF9E7 /* StickyHeaderModel.swift in Sources */,
 				0219300329DC28A800673A5C /* AnimationEndCallback.swift in Sources */,
+				0234E82A2A0E533D001351CB /* BreathingAppAnimation.swift in Sources */,
 				02263AA029D8988E00B45BBC /* ContentView.swift in Sources */,
 				02E8DD4729DF0402006D005C /* TextAnimation.swift in Sources */,
 				02192FFE29DC012600673A5C /* Home1.swift in Sources */,
 				0219300129DC1A9C00673A5C /* ScrollOffserModifier.swift in Sources */,
 				024E89E729E2CEBF000330E5 /* Extension.swift in Sources */,
+				0250D79729E5D28400234761 /* QuizAnimation.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
