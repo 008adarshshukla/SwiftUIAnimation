@@ -28,6 +28,7 @@
 		029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
 		02E8DD4729DF0402006D005C /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8DD4629DF0402006D005C /* TextAnimation.swift */; };
+		02FADDC72A0FC9AF00F933B4 /* DragCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderHome.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		02E8DD4629DF0402006D005C /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
+		02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCarousel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				02E8DD4629DF0402006D005C /* TextAnimation.swift */,
 				0250D79629E5D28400234761 /* QuizAnimation.swift */,
 				0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */,
+				02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				0250D79729E5D28400234761 /* QuizAnimation.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				0234E82F2A0E7D06001351CB /* BookLoaderView.swift in Sources */,
+				02FADDC72A0FC9AF00F933B4 /* DragCarousel.swift in Sources */,
 				029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
 				02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */,
