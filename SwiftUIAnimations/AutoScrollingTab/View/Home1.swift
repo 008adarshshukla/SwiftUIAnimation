@@ -26,10 +26,11 @@ struct Home1: View {
                             .tag(tab)
                             .offsetX(activeTab == tab) { rect in
                                 let minX = rect.minX
+                                
                                 let pageOffset = minX - (size.width * CGFloat(tab.index))
                                 ///Converting Page Offset into progress
                                 let pageProgress = pageOffset / size.width
-                                
+                                print(pageProgress)
                                 ///Limiting the scroll progress between the first and the last tab and avoiding over scrolling
                                 ///Simply disable when the tapState is true
                                 if !tapState.status {
@@ -102,7 +103,7 @@ struct Home1: View {
 
 struct Home1_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Home1()
     }
 }
 

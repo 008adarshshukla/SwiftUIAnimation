@@ -27,7 +27,6 @@
 		029373D729E288E200EAF9E7 /* StickyHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */; };
 		029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
-		02D9547D29DB1B8E002B4B9E /* InfiniteCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */; };
 		02E8DD4729DF0402006D005C /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8DD4629DF0402006D005C /* TextAnimation.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +52,6 @@
 		029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderModel.swift; sourceTree = "<group>"; };
 		029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderHome.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
-		02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteCarousel.swift; sourceTree = "<group>"; };
 		02E8DD4629DF0402006D005C /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -122,16 +120,15 @@
 		02263A9C29D8988E00B45BBC /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */,
 				0234E82D2A0E7CDE001351CB /* BookLoadingAnimation */,
 				029373D429E287EF00EAF9E7 /* StickyHeaderAnimation */,
 				02192FF829DBFFE000673A5C /* AutoScrollingTab */,
 				02263AAD29D973E800B45BBC /* OnboardingAnimations */,
-				02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */,
 				02263A9F29D8988E00B45BBC /* ContentView.swift */,
 				02263AA129D8988F00B45BBC /* Assets.xcassets */,
 				02263AA329D8988F00B45BBC /* Preview Content */,
 				02263AAB29D9337900B45BBC /* OptimiseBuildSettings.swift */,
-				02D9547C29DB1B8E002B4B9E /* InfiniteCarousel.swift */,
 				02E8DD4629DF0402006D005C /* TextAnimation.swift */,
 				0250D79629E5D28400234761 /* QuizAnimation.swift */,
 				0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */,
@@ -303,7 +300,6 @@
 				029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
 				02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */,
-				02D9547D29DB1B8E002B4B9E /* InfiniteCarousel.swift in Sources */,
 				02192FFC29DC001E00673A5C /* Tab.swift in Sources */,
 				02263AB129D979E400B45BBC /* PageIntro.swift in Sources */,
 				02263AB529D9834500B45BBC /* CustomIndicatorView.swift in Sources */,

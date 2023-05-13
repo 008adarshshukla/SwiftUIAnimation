@@ -176,6 +176,6 @@ struct StickyHeaderHome: View {
 
 struct StickyHeaderHome_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        StickyHeaderHome()
     }
 }
