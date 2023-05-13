@@ -96,7 +96,7 @@ struct DragCarousel: View {
     }
 }
 
-struct InfiniteCarousel_Previews: PreviewProvider {
+struct DragCarousel_Previews: PreviewProvider {
     static var previews: some View {
         DragCarousel()
     }
