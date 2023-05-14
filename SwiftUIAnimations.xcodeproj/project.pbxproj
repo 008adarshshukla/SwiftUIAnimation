@@ -29,6 +29,7 @@
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
 		02E8DD4729DF0402006D005C /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8DD4629DF0402006D005C /* TextAnimation.swift */; };
 		02FADDC72A0FC9AF00F933B4 /* DragCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */; };
+		02FADDCB2A1092D300F933B4 /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		02E8DD4629DF0402006D005C /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
 		02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCarousel.swift; sourceTree = "<group>"; };
+		02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				0250D79629E5D28400234761 /* QuizAnimation.swift */,
 				0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */,
 				02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */,
+				02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				02FADDC72A0FC9AF00F933B4 /* DragCarousel.swift in Sources */,
 				029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */,
 				02263AB329D97BD300B45BBC /* Home.swift in Sources */,
+				02FADDCB2A1092D300F933B4 /* AnimatedTabBar.swift in Sources */,
 				02263A9E29D8988E00B45BBC /* SwiftUIAnimationsApp.swift in Sources */,
 				02192FFC29DC001E00673A5C /* Tab.swift in Sources */,
 				02263AB129D979E400B45BBC /* PageIntro.swift in Sources */,
