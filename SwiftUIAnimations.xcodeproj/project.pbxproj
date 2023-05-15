@@ -124,6 +124,7 @@
 		02263A9C29D8988E00B45BBC /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
+				02FADDCC2A11018000F933B4 /* New Group */,
 				02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */,
 				0234E82D2A0E7CDE001351CB /* BookLoadingAnimation */,
 				029373D429E287EF00EAF9E7 /* StickyHeaderAnimation */,
@@ -218,6 +219,13 @@
 				029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		02FADDCC2A11018000F933B4 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
