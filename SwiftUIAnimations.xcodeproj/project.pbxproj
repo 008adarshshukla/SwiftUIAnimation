@@ -27,6 +27,7 @@
 		029373D729E288E200EAF9E7 /* StickyHeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */; };
 		029373DA29E2956800EAF9E7 /* StickyHeaderHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */; };
 		02D9547B29DB130F002B4B9E /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02D9547A29DB130F002B4B9E /* CustomTextField.swift */; };
+		02E64F6C2A13E63700FBC843 /* CountDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E64F6B2A13E63700FBC843 /* CountDownView.swift */; };
 		02E8DD4729DF0402006D005C /* TextAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02E8DD4629DF0402006D005C /* TextAnimation.swift */; };
 		02FADDC72A0FC9AF00F933B4 /* DragCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */; };
 		02FADDCB2A1092D300F933B4 /* AnimatedTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */; };
@@ -54,6 +55,7 @@
 		029373D629E288E200EAF9E7 /* StickyHeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderModel.swift; sourceTree = "<group>"; };
 		029373D929E2956800EAF9E7 /* StickyHeaderHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderHome.swift; sourceTree = "<group>"; };
 		02D9547A29DB130F002B4B9E /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		02E64F6B2A13E63700FBC843 /* CountDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountDownView.swift; sourceTree = "<group>"; };
 		02E8DD4629DF0402006D005C /* TextAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAnimation.swift; sourceTree = "<group>"; };
 		02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragCarousel.swift; sourceTree = "<group>"; };
 		02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedTabBar.swift; sourceTree = "<group>"; };
@@ -124,7 +126,6 @@
 		02263A9C29D8988E00B45BBC /* SwiftUIAnimations */ = {
 			isa = PBXGroup;
 			children = (
-				02FADDCC2A11018000F933B4 /* New Group */,
 				02263A9D29D8988E00B45BBC /* SwiftUIAnimationsApp.swift */,
 				0234E82D2A0E7CDE001351CB /* BookLoadingAnimation */,
 				029373D429E287EF00EAF9E7 /* StickyHeaderAnimation */,
@@ -139,6 +140,7 @@
 				0234E8292A0E533D001351CB /* BreathingAppAnimation.swift */,
 				02FADDC62A0FC9AF00F933B4 /* DragCarousel.swift */,
 				02FADDCA2A1092D300F933B4 /* AnimatedTabBar.swift */,
+				02E64F6B2A13E63700FBC843 /* CountDownView.swift */,
 			);
 			path = SwiftUIAnimations;
 			sourceTree = "<group>";
@@ -221,13 +223,6 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		02FADDCC2A11018000F933B4 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +303,7 @@
 				02192FFE29DC012600673A5C /* Home1.swift in Sources */,
 				0219300129DC1A9C00673A5C /* ScrollOffserModifier.swift in Sources */,
 				024E89E729E2CEBF000330E5 /* Extension.swift in Sources */,
+				02E64F6C2A13E63700FBC843 /* CountDownView.swift in Sources */,
 				0250D79729E5D28400234761 /* QuizAnimation.swift in Sources */,
 				02263AAC29D9337900B45BBC /* OptimiseBuildSettings.swift in Sources */,
 				0234E82F2A0E7D06001351CB /* BookLoaderView.swift in Sources */,
